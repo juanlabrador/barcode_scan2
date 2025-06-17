@@ -36,6 +36,10 @@ android {
         namespace("de.mintware.barcode_scan")
     }
 
+    buildFeatures {
+        buildConfig = true
+    }
+
     compileSdkVersion 31
 
     compileOptions {
